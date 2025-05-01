@@ -1,0 +1,171 @@
+import DexterLogo from './IMG_4469.webp';
+
+function App() {
+  return <img src={DexterLogo} alt="Dexter Logo" style={{ width: '300px' }} />;
+}
+/* Full-screen centered layout */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+@font-face {
+  font-family: 'Deadly Killers';
+  src: url('fonts/DeadlyKillers.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.logo {
+ .logo {
+  background-image: url('IMG_4469.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 100px; /* adjust based on image proportions */
+}
+
+}  }
+}
+@font-face {
+   }
+}
+@font-face {
+  font-family: 'Deadly Killers';
+  src: url('fonts/DeadlyKillers.ttf') format('truetype');
+}
+.site-name {
+  font-family: 'Deadly Killers', cursive;
+  font-size: 60px;
+  color: #e60000;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  animation: slideIn 1s ease-out;
+  margin-top: 15px;
+}
+
+}
+.site-name {
+  font-family: 'Deadly Killers', cursive;
+  font-size: 60px;
+  color: #e60000;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  animation: slideIn 1s ease-out;
+  margin-top: 15px;
+}
+
+
+.site-name {
+  font-family: 'Deadly Killers', cursive;
+  font-size: 48px;
+  color: #e60000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: slideIn 1s ease-out;
+}
+
+.intro-text {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+}
+
+.file-item {
+  background: #2a2a2a;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: downloadBoxIn 0.6s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.file-item:nth-child(1) { animation-delay: 0.2s; }
+.file-item:nth-child(2) { animation-delay: 0.4s; }
+.file-item:nth-child(3) { animation-delay: 0.6s; }
+
+.file-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(230, 0, 0, 0.4);
+}
+
+.file-item a {
+  background: #e60000;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.file-item a:hover {
+  background: #b30000;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); }
+  to { transform: translateY(0); }
+}
+
+@keyframes downloadBoxIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
